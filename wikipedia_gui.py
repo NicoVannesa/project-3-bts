@@ -18,7 +18,7 @@ iface = gr.Interface(
     inputs=gr.Textbox(label="Enter a Wikipedia Topic"),
     outputs=gr.Textbox(label="Cleaned Summary"),
     title="📚 Wikipedia Study Summarizer",
-    description="Type any topic and get a clean, AI-ready summary!"
+    description="Type any academic topic. For best results, use specific terms like 'Quantum Mechanics' instead of vague ones like 'Quantum Theory'."
 )
 
 if __name__ == "__main__":
